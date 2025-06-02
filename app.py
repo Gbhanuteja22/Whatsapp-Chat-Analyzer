@@ -13,7 +13,7 @@ if uploaded_file is not None:
 
     # Check if DataFrame is valid before proceeding
     if df is not None and not df.empty:
-        st.dataframe(df) # Optional: Display the processed DataFrame for debugging
+        #st.dataframe(df) # Optional: Display the processed DataFrame for debugging
 
         # fetch unique users
         user_list = df["user"].unique().tolist()
